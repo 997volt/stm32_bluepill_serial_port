@@ -43,7 +43,7 @@
 UART_HandleTypeDef huart1;
 
 /* USER CODE BEGIN PV */
-
+uint8_t Received;
 /* USER CODE END PV */
 
 /* Private function prototypes -----------------------------------------------*/
@@ -99,9 +99,6 @@ int main(void)
   /* USER CODE BEGIN WHILE */
   while (1)
   {
-	  send_string("communication continues\r\n");
-	  HAL_Delay(1000);
-
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
