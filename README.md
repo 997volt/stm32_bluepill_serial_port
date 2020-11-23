@@ -1,4 +1,4 @@
-# stm32_bluepill_blinky
+# stm32_bluepill_serial_port
 
 Serial communication with PC using Waveshare PL2303 transiever.
 
